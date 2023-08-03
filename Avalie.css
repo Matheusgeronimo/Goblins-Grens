@@ -1,3 +1,10 @@
+*{
+background-color: rgb(219, 255, 247);
+margin-top: 20px;
+
+}
+
+
 form{
    font-size: 20px;
     
@@ -16,6 +23,14 @@ text-align: center;
 .obs {
 font-size: 20px;
 }
+
+.arroz{
+    font-size: 40px;
+}
+
+
+
+
 
 
 
