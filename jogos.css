@@ -14,14 +14,30 @@ font-size:70px;
 margin-left: 40%;
 margin-right: 60%;
 }
-.jogo1{
-margin-top: 200px;
-margin-left: 40%;
-margin-left: 40%;
-font-size: 20px;
 
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 40px;
 }
 
+.hover-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 20px;
+}
+
+.image-container:hover .hover-text {
+    opacity: 1;
+}
 
 
 
