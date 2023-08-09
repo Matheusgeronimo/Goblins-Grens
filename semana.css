@@ -3,18 +3,53 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100%;
-    background-attachment: fixed;
     
     }
-    
-    *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-    }
-    
-    header{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header{
     position: fixed;
     top: 0;
     left: 0;
@@ -36,14 +71,14 @@ body{
     }
     
     .navegacao{
-    font-size: 25px;
-    margin-left: 10px;
-    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    
     }
     
     .navegacao a{
     position: relative;
-    font-size: 25px;
+    font-size: 30px;
     color: rgba(0, 0, 0, 0.778);
     text-decoration: none;
     font-weight: 500;
@@ -108,86 +143,7 @@ body{
     footer{
     background-color: rgba(0, 0, 0, 0.479);
     text-align: center;
-    margin-top: 20%;
+    margin-top: 50%;
     color: white;
     font-size: 20px;
     }
-    
-    
-    
-    .lo{
-    text-align: center;
-    margin-top: 200px;
-    }
-
-
-.texto1{
-margin-top: 60px;
-font-size: 20px;
-margin-right: 900px;
-margin-left: 60px;
-}
-
-.titulo{
-    margin-top: 195px;
-    margin-left: 60px;
-    color: rgba(0, 0, 0, 0.89);
-
-}
-
-.gnomo{
-margin-top: -200px;
-margin-left: 500px;
-
-}
-
-.jogosgm{
-margin-left: 900px;
-font-size: 20px;
-margin-top: 90px;
-}
-
-.imgjogos{
-    margin-top: -250px;
-    position: absolute;
-    margin-left: 137px;
-    }
-
-
-.imgjogos1{
-    margin-top: -250px;
-    position: absolute;
-    margin-left: 399px;
-    }
-
-.imgjogos2{
- margin-top: -120px;
-position: absolute;
-margin-left: 400px;  
-}
-
-.imgjogos3{
- margin-top: -120px;
-position: absolute;
-margin-left:137px ;         
-}
-
-.int{
-    margin-top: 200px;
-    margin-right: 900px;
-    font-size: 20px;
-    margin-left: 50px;
-}
-
-
-.imgy1{
-    margin-top: -250px;
-   position: absolute;
-   margin-left:860px ;         
-   }
-
-   .imgy2{
-    margin-top: -250px;
-   position: absolute;
-   margin-left:460px ;         
-   }
