@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100%;
-    
+    background-attachment: fixed;
     }
     .navegacao a{
         position: relative;
@@ -75,6 +75,7 @@ body{
         margin-top: 50%;
         color: white;
         font-size: 20px;
+        margin-top: -100px;
         }
 
         .logo{
@@ -85,138 +86,13 @@ body{
             }
 
 
+h1{
+font-size: 45px;
+margin-left: 1000px;
+margin-top: -28px;
 
+            }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    background-color: rgba(255, 0, 0, 0);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 99;
-    
-    }
-    
-    .logo{
-    font-size: 70px;
-    color: rgba(0, 0, 0, 0.808);
-    user-select: none;
-    margin-right: 90px;
-    }
-    
-    .navegacao{
-    font-size: 20px;
-    margin-left: 20px;
-    
-    }
-    
-    .navegacao a{
-    position: relative;
-    font-size: 30px;
-    color: rgba(0, 0, 0, 0.778);
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 80px;
-    
-    
-    }
-    
-    .navegacao a::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    width: 100%;
-    height: 3px;
-    background: rgba(0, 0, 0, 0.705)    ;
-    border-radius: 5px;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform .4s;
-    
-    }
-    
-    .navegacao a:hover::after{
-    transform-origin: left;
-    transform: scaleX(1);
-    }
-    
-    .navegacao a:hover{
-    color: rgba(0, 0, 0, 0.74) ;  
-        }
-    
-    
-    
-    
-    
-    .navegacao .btnlogin-popup{
-    margin-left: 25px;
-    width: 130px;
-    height: 50px;
-    background: transparent;
-    border: 2px solid rgba(0, 0, 0, 0.562);
-    outline: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 22px;
-    color: rgba(12, 1, 1, 0.575);
-    font-weight: 500;
-    margin-bottom: 40px;
-    transition: .5s;
-    
-    }
-    
-    .navegacao .btnlogin-popup:hover{
-    background: rgba(0, 0, 0, 0.5);
-    color: rgb(255, 255, 255);
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.63);
-    
-    }
-    
     
     footer{
     background-color: rgba(0, 0, 0, 0.479);
@@ -225,3 +101,36 @@ header{
     color: white;
     font-size: 20px;
     }
+
+.Goblinsgre h2{
+font-size: 30px;
+margin-left: 50px;
+margin-top: 90px;
+}
+.Goblinsgre p{
+font-size: 20px;
+margin-right: 1000px;
+margin-left: 50px;
+}
+
+.mp4g{
+margin-right: 700px;
+text-align: center;
+}
+.gnomo{
+    margin-top: -200px;
+    margin-left: 600px;
+    
+    }
+
+.espace h2 {
+text-align: center;
+font-size: 30px;
+}
+
+
+.espace p{
+text-align: center;
+font-size: 20px;
+
+}
