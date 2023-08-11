@@ -24,7 +24,8 @@ color:rgba(0, 0, 0, 0.801) ;
     position: relative;
     display: inline-block;
     margin-left: 120px;
-     
+    border-radius: 50px;
+    margin-top: 300px;
 }
 
 .hover-text {
@@ -62,7 +63,7 @@ header{
     font-size: 70px;
     color: rgba(0, 0, 0, 0.808);
     user-select: none;
-    margin-right: 90px;
+    margin-right: 120px;
     }
     
     .navegacao{
@@ -138,8 +139,9 @@ header{
     footer{
         background-color: rgba(0, 0, 0, 0.479);
         text-align: center;
-        margin-top: 20%;
+        margin-top: 200px;
         color: white;
         font-size: 20px;
+        margin-top: 900px;
         }
         
